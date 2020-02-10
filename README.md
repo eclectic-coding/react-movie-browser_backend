@@ -58,7 +58,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Ruby on Rails](https://rubyonrails.org/)
+* [Ruby on Rails]() - The web framework used
 
 ## Contributing
 
@@ -66,13 +66,13 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details about  the process 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/eclectic-coding/react-movie-browser_backend/tags)<!-- @IGNORE PREVIOUS: link -->.
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/eclectic-coding/react-movie-browser_backend/tags).
 
 ## Authors
 
 * **Chuck Smith** -  [Eclectic Coding](https://github.com/eclectic-coding)
 
-See also the list of [contributors](https://github.com/eclectic-coding/react-movie-browser_backend/contributors)<!-- @IGNORE PREVIOUS: link --> who participated in this project.
+See also the list of [contributors](https://github.com/eclectic-coding/react-movie-browser_backend/contributors) who participated in this project.
 
 ## License
 

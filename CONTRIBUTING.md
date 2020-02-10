@@ -8,7 +8,7 @@
 If you have never opened a PR and need direction, read more below.
 
 # Contributor's Guide
-Feedback, bug reports, and pull requests are welcome. Feel free to ask for [help](https://github.com/eclectic-coding/this-repo/issues).
+Feedback, bug reports, and pull requests are welcome. Feel free to ask for [help](https://github.com/eclectic-coding/react-movie-browser_backend/issues).
 
 Working on your first Pull Request? You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
@@ -21,11 +21,11 @@ This guide has been modified from [freeCodeCamp's Contributors Guide](https://gi
 1.  Install [Git](https://git-scm.com/) or your favorite Git client.
 2.  (Optional) [Setup an SSH Key](https://help.github.com/articles/generating-an-ssh-key/) for GitHub.
 
-### Forking Developer Portfolios
+### Forking this Portfolios
 
-1.  Go to the top level page of this [repository](https://github.com/eclectic-coding/this-repo)
+1.  Go to the top level page of this [repository](https://github.com/eclectic-coding/react-movie-browser_backend)
 2.  Click the "Fork" Button in the upper right hand corner of the interface ([More Details Here](https://help.github.com/articles/fork-a-repo/))
-3.  After the repository (repo) has been forked, you will be taken to your copy of the Developer Portfolios repo at <https://github.com/yourUsername/this-repo>
+3.  After the repository (repo) has been forked, you will be taken to your copy of the this repo at <https://github.com/yourUsername/react-movie-browser_backend><!-- @IGNORE PREVIOUS: link -->
 
 ### Cloning Your Fork
 
@@ -33,7 +33,7 @@ This guide has been modified from [freeCodeCamp's Contributors Guide](https://gi
 2.  Clone your fork of 
 
 ```shell
-$ git clone https://github.com/yourUsername/this-repo.git
+$ git clone https://github.com/yourUsername/react-movie-browser_backend.git
 ```
 
 **(make sure to replace `yourUsername` with your GitHub username)**
@@ -42,11 +42,11 @@ This will download the entire repo to your project's directory.
 
 ### Setup Your Upstream
 
-1.  Change directory to the new directory (`cd ./this-repo`)
+1.  Change directory to the new directory (`cd ./react-movie-browser_backend`)
 2.  Add a remote to the original  repo:
 
 ```shell
-$ git remote add upstream https://github.com/eclectic-coding/this-repo.git
+$ git remote add upstream https://github.com/eclectic-coding/react-movie-browser_backend.git
 ```
 
 Congratulations, you now have a local copy of the  repo!
@@ -123,7 +123,7 @@ A pull request (PR) is a method of submitting your new site to the  (or any repo
 
 #### Need Help?
 
-Feel free to ask for [help](https://github.com/eclectic-coding/this-repo/issues), we are here to help.
+Feel free to ask for [help](https://github.com/eclectic-coding/react-movie-browser_backend/issues), we are here to help.
 
 #### Important: ALWAYS EDIT ON A BRANCH
 
@@ -163,7 +163,7 @@ This is the recommended method. Read about [How to Setup and Maintain a Local In
 
 Please make sure to write a commit message that summarizes the changes. If you find yourself in the need to use `and` it might be better to do two separate commits.
 
-See [Useful Tips for writing better Git commit messages](https://code.likeagirl.io/useful-tips-for-writing-better-git-commit-messages-808770609503) for inspiration.
+See [Useful Tips for writing better Git commit messages](https://solar-digital.com/blog/10-tips-for-a-better-git-commit-message)<!-- @IGNORE PREVIOUS: link --> for inspiration.
 
 As a note, use the presrnt tense for your commit messages (i.e. `Add` instead of `Added`).
 
@@ -174,7 +174,7 @@ As a note, use the presrnt tense for your commit messages (i.e. `Add` instead of
 12. Once the edits have been committed, you will be prompted to create a pull request on your fork's GitHub Page.
 
 13. By default, all pull requests should be against the  main repo, `master` branch.
-    **Make sure that your Base Fork is set to this-repo/master when raising a Pull Request.**
+    **Make sure that your Base Fork is set to react-movie-browser_backend/master when raising a Pull Request.**
 
 14. Submit a pull request from your branch to  `master` branch.
 
