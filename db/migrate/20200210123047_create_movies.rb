@@ -9,7 +9,7 @@ class CreateMovies < ActiveRecord::Migration[6.0]
       t.text :overview
       t.float :average_vote
       t.float :popularity
-      t.string :genres, array: true
+      t.string :genre_ids, array: true
       t.integer :budget
       t.text :tagline
       t.integer :runtime

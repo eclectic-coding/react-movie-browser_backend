@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_02_10_123047) do
     t.text "overview"
     t.float "average_vote"
     t.float "popularity"
-    t.string "genres", array: true
+    t.string "genre_ids", array: true
     t.integer "budget"
     t.text "tagline"
     t.integer "runtime"
