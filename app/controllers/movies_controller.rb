@@ -1,4 +1,6 @@
 class MoviesController < ApplicationController
+  before_action :authorized, except: %i[index show]
+
   include MoviesHelper
 
   def index
@@ -19,7 +21,5 @@ class MoviesController < ApplicationController
   def title
     @movies = Movie.all.title
   end
-
-
-
+  
 end
