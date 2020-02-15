@@ -12,6 +12,7 @@ class MoviesController < ApplicationController
     @movie = Movie.find(params[:id])
     loc_movie = @movie.movie_id
     movie_detail(loc_movie)
+    render json: @movie
   end
 
   def votes
