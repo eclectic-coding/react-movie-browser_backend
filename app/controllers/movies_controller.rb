@@ -15,12 +15,4 @@ class MoviesController < ApplicationController
     render json: @movie
   end
 
-  def votes
-    @movies = Movie.all.average_vote
-  end
-
-  def title
-    @movies = Movie.all.title
-  end
-  
 end
