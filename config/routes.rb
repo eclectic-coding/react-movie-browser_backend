@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   get '/profile', to: 'users#profile'
 
   resources :movies
+
+  resources :watchlists
+
+
 end

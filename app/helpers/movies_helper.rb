@@ -29,5 +29,6 @@ module MoviesHelper
     edit_movie.runtime = detail_data['runtime']
     edit_movie.save
   end
+
 end
 
